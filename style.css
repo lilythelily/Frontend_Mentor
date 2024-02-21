@@ -44,6 +44,9 @@ ol li::marker{
 ul li::marker{
     color: hsl(332, 51%, 32%)
 }
+ul {
+    margin-top: 0;
+}
 td {
     border-bottom: 1px solid hsl(30, 18%, 87%);
     padding: 4px;
