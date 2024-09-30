@@ -46,6 +46,8 @@ p {
 .title {
     color: hsl(332, 51%, 32%); font-family: 'Outfit';
     font-size: 20px; font-weight: bold; 
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 li {
