@@ -10,7 +10,6 @@ background-color: hsl(30, 54%, 90%);
 img {
     border-radius: 10px; display: block; margin-left: auto;
     margin-right: auto;
-    width: 100px;
 }
 h1 {
     font-family: 'Young Serif', serif; font-weight: 400;
@@ -37,11 +36,15 @@ li {
     color: hsl(30, 10%, 34%);
     padding-left: 24px; padding-bottom: 16px;
 }
-table {
+
+.bold {
     font-family: 'Outfit'; font-size: 16px; 
-    margin-bottom: 24px; color: hsl(30, 10%, 34%);
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+    padding-left: 24px; padding-bottom: 16px;
 }
-.number {
+
+number .data {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
 }
@@ -54,10 +57,19 @@ ul li::marker{
 ul {
     margin-top: 0;
 }
-td {
-    border-bottom: 1px solid hsl(30, 18%, 87%);
-    padding: 4px;
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 8px 24px;
 }
+
+.table {
+    
+    
+
 .card {
     background-color: hsl(0, 0%, 100%); 
     display: block; margin-left: auto; margin-right: auto;
@@ -67,9 +79,8 @@ td {
 hr {
     border: 0.5px solid hsl(30, 18%, 87%, 0.5);
 }
-.items {
-    padding-left: 24px;
-}
+
+
 .attribution {
     font-family: 'Outfit'; font-size: 10px; 
     color: hsl(30, 10%, 34%, 0.5);
