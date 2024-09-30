@@ -61,13 +61,16 @@ ul {
 .item {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 60px;
     margin: 24px;
     padding: 8px 24px;
 }
 
 .table {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
     
 
 .card {
