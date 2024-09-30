@@ -32,7 +32,7 @@ p {
 .preparation {
     background-color: hsl(330, 100%, 98%);
     border-radius: 8px; display:flex; flex-direction: column;
-    padding: 16px;
+    padding-left: 16px;
 }
 
 .ingredients {
@@ -46,7 +46,6 @@ p {
 .title {
     color: hsl(332, 51%, 32%); font-family: 'Outfit';
     font-size: 20px; font-weight: bold; 
-    padding: 24px;
 }
 
 li {
@@ -90,6 +89,7 @@ ul li::marker{
     display: flex;
     flex-direction: column;
     gap: 2px;
+    margin-bottom: 24px;
 }
     
 
