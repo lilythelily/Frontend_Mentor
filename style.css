@@ -16,14 +16,12 @@ img {
 h1 {
     font-family: 'Young Serif', serif; font-weight: 400;
     font-size: 32px; color: hsl(24, 5%, 18%);
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 h2 {
     font-family: 'Young Serif', serif; font-weight: 400;
     font-size: 24px; color: hsl(14, 45%, 36%);
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 p {
@@ -42,7 +40,7 @@ p {
 }
 
 .instructions {
-    padding: 16px 24px;
+    padding: 16px;
 }
 
 .title {
@@ -84,14 +82,14 @@ ul li::marker{
 .item {
     display: flex;
     flex-direction: row;
-    gap: 80px;
-    padding: 8px 24px;
+    gap: 100px;
+    padding: 8px;
 }
 
 .table {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 2px;
 }
     
 
@@ -115,5 +113,5 @@ hr {
 .attribution {
     font-family: 'Outfit'; font-size: 10px; 
     color: hsl(30, 10%, 34%, 0.5);
-    margin-bottm: 40px;
+    margin-bottom: 40px;
 }
