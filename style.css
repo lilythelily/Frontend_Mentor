@@ -9,8 +9,8 @@ background-color: hsl(30, 54%, 90%);
 }
 
 img {
-    border-radius: 10px; display: block; margin-left: auto;
-    margin-right: auto;
+    border-radius: 10px; margin-left: auto;
+    margin-right: auto; width: 100%;
 }
 
 h1 {
@@ -35,6 +35,16 @@ p {
     border-radius: 8px; display:flex; flex-direction: column;
     padding: 16px 24px;
     margin: 24px;
+}
+
+.ingredient {
+    margin: 24px;
+    padding: 16px 24px;
+}
+
+.instructions {
+    margin: 24px;
+    padding: 16px 24px;
 }
 
 .title {
@@ -84,7 +94,7 @@ ul li::marker{
 .table {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
 }
     
 
