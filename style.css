@@ -7,24 +7,29 @@
 body {
 background-color: hsl(30, 54%, 90%);
 }
+
 img {
     border-radius: 10px; display: block; margin-left: auto;
     margin-right: auto;
 }
+
 h1 {
     font-family: 'Young Serif', serif; font-weight: 400;
     font-size: 32px; color: hsl(24, 5%, 18%);
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 h2 {
     font-family: 'Young Serif', serif; font-weight: 400;
     font-size: 24px; color: hsl(14, 45%, 36%);
 }
+
 p {
     font-family: 'Outfit', sans-serif; font-weight: 400;
     color: hsl(30, 10%, 34%); font-size: 18px;
 }
+
 .preparation {
     background-color: hsl(330, 100%, 98%);
     border-radius: 8px; display:flex; flex-direction: column;
@@ -41,14 +46,14 @@ p {
 li {
     font-family: 'Outfit'; font-size: 16px; 
     color: hsl(30, 10%, 34%);
-    padding-left: 24px; padding-bottom: 16px;
+ padding-bottom: 16px;
 }
 
 .bold {
     font-family: 'Outfit'; font-size: 16px; 
     font-weight: bold;
     color: hsl(30, 10%, 34%);
-    padding-left: 24px; padding-bottom: 16px;
+padding-bottom: 16px;
 }
 
 .data {
