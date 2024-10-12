@@ -6,6 +6,10 @@
 
 body {
 background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
